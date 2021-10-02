@@ -128,7 +128,7 @@ a {
 .inline-block-section {
     margin: 2rem 0;
   }
-  .inline-block-section .container {
+  .inline-block-section.container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
@@ -242,9 +242,6 @@ margin-bottom: 70px;
     .card-header-text {
       text-align: center;
       font-size: 30px;
-    }
-    .col-5 {
-      align-items: center;
     }
   }
 /*end of responsive media*/
@@ -513,6 +510,15 @@ ul{
 .row{
 	flex-direction: column;
 	}
+.footer-col.col-1 {
+   width: 100%;
+}
+.footer-col.col-2 {
+  width: 100%;
+}
+.footer-col.col-3 {
+  width: 100%;
+}
 }
 @media(max-width: 950px) {
 	.footer-col{
@@ -523,6 +529,15 @@ ul{
 .row{
 	flex-direction: column;
 	}
+.footer-col.col-1 {
+  width: 100%;
+}
+.footer-col.col-2 {
+  width: 100%;
+}
+.footer-col.col-3 {
+  width: 100%;
+}
 }
 
 .form-text {
