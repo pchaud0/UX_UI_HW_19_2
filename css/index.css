@@ -145,6 +145,10 @@ a {
   img{
       width: 100%;
   }
+  .container.remove-width {
+    max-width: none;
+    margin: 40px;
+}
 
 /* my ux skills section */
 
