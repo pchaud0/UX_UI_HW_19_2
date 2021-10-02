@@ -16,6 +16,9 @@
     margin: auto;
     overflow: hidden;
     padding: 0 2rem;
+    margin-right: 40px;
+    margin-left: 40px;
+
   }
   p {
     font-size: 16px;  
@@ -123,12 +126,12 @@ a {
 }
 /*--END-NAV--*/
   
-/* section */
+/* HEADER section */
 
 .inline-block-section {
     margin: 2rem 0;
   }
-  .inline-block-section.container {
+  .inline-block-section .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
@@ -193,7 +196,6 @@ margin-bottom: 70px;
     .flexchild {
       width: 100%;
       padding: 1rem;
-
     }
     .grid-card {
       height:auto;
@@ -213,6 +215,17 @@ margin-bottom: 70px;
     }
     .grid-card {
       align-items: center;
+    }
+    .inline-block-section .container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5rem;
+    }
+    .container {
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+    .arrow-diss {
+      display:none;
     }
   }
 
