@@ -359,7 +359,7 @@ margin-bottom: 70px;
 .grid-card {
   display: flex;
   margin: 10px 0px;
-  padding: 25px 0px;
+  padding: 25px 25px;
   transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
   background-color: #D5E3EB;
   border-radius: 4px;
@@ -381,8 +381,10 @@ margin-bottom: 70px;
     width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
+    justify-content: center;
 }
+
 .card-header-text {
   text-align: center;
   font-size: 30px;
