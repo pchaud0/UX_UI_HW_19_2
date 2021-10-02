@@ -1,3 +1,4 @@
+
 :root {
     --dark-blue-color: #003071;
     --font-color: #000000;
@@ -6,6 +7,7 @@
     background: var(--background-color);
     font-family: Arial, Helvetica, sans-serif;
   }
+  
   .body{
     line-height: 1.6;
     color: var(--font-color);
@@ -22,7 +24,15 @@
   }
   p {
     font-size: 16px;  
+    font-family: 'Mulish', sans-serif;
   }
+  .text {
+    font-family: 'Poppins', sans-serif;
+  }
+  .text2 {
+    color:#E8E8EA;
+  }
+  
 /*NAV*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 * {
@@ -137,6 +147,7 @@ a {
     gap: 3rem;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
   }
   .inline-block-section h1 {
     font-size: 4rem;
@@ -200,9 +211,12 @@ margin-bottom: 70px;
     .grid-card {
       height:auto;
       flex-direction: column;
+      align-items: center;
+      text-align: center;
     }
     .col-5 {
       width: 100%;
+      margin-top: 20px;
     }
     .col-7 {
       width:auto;
@@ -212,9 +226,7 @@ margin-bottom: 70px;
     .card-header-text {
       text-align: center;
       font-size: 30px;
-    }
-    .grid-card {
-      align-items: center;
+      font-weight: bold;
     }
     .inline-block-section .container {
     grid-template-columns: repeat(1, 1fr);
@@ -256,6 +268,10 @@ margin-bottom: 70px;
       text-align: center;
       font-size: 30px;
     }
+    .inline-block-section .container {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 5rem;
+      }
   }
 
 /*end of responsive media*/
@@ -368,13 +384,14 @@ margin-bottom: 70px;
     align-items: left;
 }
 .card-header-text {
-  text-align: left;
+  text-align: center;
   font-size: 30px;
 }
 .SAHS-p{
-  text-align: left;
+  text-align: center;
   justify-content: flex-end;
 }
+
 /*
 *
 * Footer
@@ -432,9 +449,11 @@ body{
 }
 .footer-col.col-2 {
 	width: 60%;
+  padding: 10px 15px;
 }
 .footer-col.col-3 {
 	width: 22%;
+  padding: 10px 15px;
 }
 .row.row-center {
 	justify-content: center;
@@ -448,7 +467,7 @@ ul{
 }
 .footer-col{
    width: 25%;
-   padding: 0 15px;
+   padding: 10px 15px;
 }
 .footer-col h4{
 	font-size: 18px;
