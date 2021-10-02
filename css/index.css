@@ -185,7 +185,6 @@ margin-bottom: 70px;
 
 
 /*mobile view styles*/
-
   @media only screen and (max-width: 600px) {
     .flexcontainer {
       flex-wrap: wrap;
@@ -197,21 +196,27 @@ margin-bottom: 70px;
 
     }
     .grid-card {
-      height:500px;
+      height:auto;
       flex-direction: column;
     }
     .col-5 {
-      width: auto;
+      width: 100%;
     }
     .col-7 {
       width:auto;
       align-items: center;
       width: 100%;
     }
+    .card-header-text {
+      text-align: center;
+      font-size: 30px;
+    }
+    .grid-card {
+      align-items: center;
+    }
   }
 
 /*tablet view styles*/
-
   @media only screen and (max-width: 950px) {
     .flexcontainer {
       flex-wrap: wrap;
@@ -220,9 +225,30 @@ margin-bottom: 70px;
     .flexchild {
       width: 100%;
       padding: 1rem;
-
+    }
+    .grid-card {
+      height:auto;
+      flex-direction: column;
+      align-items: center;
+    }
+    .col-5 {
+      width: 100%;
+    }
+    .col-7 {
+      width:auto;
+      align-items: center;
+      width: 100%;
+    }
+    .card-header-text {
+      text-align: center;
+      font-size: 30px;
+    }
+    .col-5 {
+      align-items: center;
     }
   }
+/*end of responsive media*/
+
   .threecard-item {
     display: flex;
     flex-direction: column;
@@ -333,11 +359,6 @@ margin-bottom: 70px;
 .card-header-text {
   text-align: left;
   font-size: 30px;
-}
-.SAHS-text {
-  text-align: left;
-  font-size: 30px;
-
 }
 .SAHS-p{
   text-align: left;
