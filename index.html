@@ -6,9 +6,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <!-- NAV -->
-    <header class="header">
+    <header class="header" id="header">
         <nav class="navbar">
             <a href="#" class="nav-logo">
                 <div class="logo-wrapper">
@@ -17,16 +18,16 @@
             </a>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">My Work</a>
+                    <a href="#mySkills" class="nav-link">My Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">My Skills</a>
+                    <a href="#myWork" class="nav-link">My Work</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
+                    <a href="#header" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="#footer" class="nav-link">Contact</a>
                 </li>
             </ul>
                 <div class="hamburger">
@@ -60,6 +61,7 @@
                     <!-- End: Preloader sides - Model 1 -->
             </div>
         </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </section>
     <!-- END PRELOADER Section -->
     <!-- Hero Section -->
@@ -94,7 +96,7 @@
             </div>
         </section>
 <!--  My UX Skills section coded using CSS flex -->
-    <section class=mySkills>
+    <section class=mySkills id="mySkills">
         <h1 class=mySkills-h1>My UX Skills</h1>
         <div class="flexcontainer"> 
             <div class="flexchild">
@@ -104,7 +106,7 @@
                     </div>
                     <div class="threecard-info">
                         <h2 class="threecard-title">USER RESEARCH</h2>
-                        <p class="threecard-intro">I believe that user research is the most essential step of the design process. I love speaking to users and understanding their process and problems first, to then begin designing a solution with the gathered data.</p>
+                        <p class="threecard-intro">User research is the most essential step of the design process. I love speaking to users and understanding their process and problems first, then begin designing a solution.</p>
                     </div>
                 </div> 
             </div>
@@ -133,7 +135,7 @@
         </div>       
     </section>
     <!-- My Work Section Constructed using CSS Grid -->
-    <section class="myWork">
+    <section class="myWork" id="myWork">
         <h1>My Work</h1>
         <div class="grid-card-wrapper">
             <div class="grid-card">
@@ -172,7 +174,7 @@
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     </head>
     <body>
-        <footer class="footer">
+        <footer class="footer" id="footer">
             <h1 class="footer-header"> Tell Me How I Can Help</h1>
             <div class="container">
                 <div class="row row-center">
